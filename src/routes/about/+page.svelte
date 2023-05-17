@@ -28,7 +28,8 @@
 		<p class="text-gray-500">
 			One Time Secret's code is publicly available. This allows anyone to review the project code.
 			For anyone interested in how One Time Secret works, or those who wish to contribute, you can
-			find source code on GitHub: <a href="/" class="text-blue-950">One Time Secret GitHub Repository</a>.
+			find source code on GitHub: <a href="https://github.com/mailoxy/one-time-secret-worker" class="text-blue-950">Worker</a>, 
+			<a href="https://github.com/mailoxy/one-time-secret-web" class="text-blue-950">Web Client</a>.
 		</p>
 	</div>
 </div>
