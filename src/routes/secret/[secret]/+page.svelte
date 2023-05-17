@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>One Time Secret | Reveal </title> 
+</svelte:head>
+
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import CryptoJS from 'crypto-js';

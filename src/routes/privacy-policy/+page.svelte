@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>One Time Secret | Privacy Policy </title> 
+</svelte:head>
+
 <div class="flex flex-col justify-center items-center bg-gray-100 px-4 py-10 xl:h-screen">
 	<div class="space-y-4 xl:w-1/2">
 		<h1 class="text-3xl font-bold">One Time Secret</h1>

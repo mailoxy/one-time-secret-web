@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>One Time Secret | Create </title> 
+</svelte:head>
+
 <script lang="ts">
 	import CryptoJS from "crypto-js";
 	import { PUBLIC_API_URL } from '$env/static/public'
