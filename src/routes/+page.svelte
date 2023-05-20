@@ -4,14 +4,11 @@
 
 	let secret = '';
 	let secretKey = '';
-	let encryptedSecret = '';
 	let oneTimeSecretUrl = '';
-	let encryptionKey = '';
 
 	function createSecret() {
-		encryptionKey = CryptoJS.lib.WordArray.random(128 / 8).toString();
-		encryptedSecret = CryptoJS.AES.encrypt(secret, encryptionKey).toString();
-		// check if the secret is empty
+		const encryptionKey = CryptoJS.lib.WordArray.random(256 / 8).toString();
+		const encryptedSecret = CryptoJS.AES.encrypt(secret, encryptionKey).toString();
 		if (secret === '') {
 			alert('Please enter a secret');
 			return;
