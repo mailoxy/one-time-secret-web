@@ -59,7 +59,7 @@
 		<h1 class="text-3xl font-bold">One Time Secret</h1>
 		{#if !oneTimeSecretUrl}
 			<p class="text-gray-500">
-				Create a secret and share it with your friends or collegues. Once they have seen it, it will
+				Create a secret and share it with your friends or colleagues. Once they have seen it, it will
 				be gone forever.
 			</p>
 			<div class="flex flex-col space-y-2">
